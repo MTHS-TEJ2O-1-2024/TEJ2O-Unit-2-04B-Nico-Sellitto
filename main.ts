@@ -5,4 +5,10 @@
  * This program shows a string
 */
 
-basic.showString('Hello, World!')
+basic.pause(100)
+
+let temp = input.temperature()
+
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(temp)
+})
