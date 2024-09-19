@@ -2,7 +2,7 @@
  *
  * Created by: Nico Sellitto
  * Created on: Sep 2024
- * This program shows a string
+ * This program shows temperature
 */
 
 basic.pause(100)
