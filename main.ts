@@ -5,10 +5,12 @@
  * This program shows temperature
 */
 
-basic.pause(100)
+basic.showIcon(IconNames.Happy)
 
 let temp = input.temperature()
 
 input.onButtonPressed(Button.A, function () {
+    basic.showString('the temperature is:')
     basic.showNumber(temp)
+    basic.showIcon(IconNames.Happy)
 })
